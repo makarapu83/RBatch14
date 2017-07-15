@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13797" started-at="2017-07-07T02:25:36Z" finished-at="2017-07-07T02:25:50Z">
+    <groups>
+      <group name="alert">
+        <method signature="AlertHandle.test005_alert()[pri:0, instance:com.selenium.tests.AlertHandle@77f99a05]" name="test005_alert" class="com.selenium.tests.AlertHandle"/>
+      </group> <!-- alert -->
+      <group name="smoke">
+        <method signature="AlertHandle.test005_alert()[pri:0, instance:com.selenium.tests.AlertHandle@77f99a05]" name="test005_alert" class="com.selenium.tests.AlertHandle"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="13797" started-at="2017-07-07T02:25:36Z" finished-at="2017-07-07T02:25:50Z">
+      <class name="com.selenium.tests.AlertHandle">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.selenium.tests.AlertHandle@77f99a05]" name="beforeMethod" is-config="true" duration-ms="8902" started-at="2017-07-07T07:55:36Z" finished-at="2017-07-07T07:55:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test005_alert()[pri:0, instance:com.selenium.tests.AlertHandle@77f99a05]" name="test005_alert" duration-ms="3383" started-at="2017-07-07T07:55:45Z" finished-at="2017-07-07T07:55:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test005_alert -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.selenium.tests.AlertHandle@77f99a05]" name="afterMethod" is-config="true" duration-ms="1475" started-at="2017-07-07T07:55:48Z" finished-at="2017-07-07T07:55:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test005_alert status=SUCCESS method=AlertHandle.test005_alert()[pri:0, instance:com.selenium.tests.AlertHandle@77f99a05] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.selenium.tests.AlertHandle -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

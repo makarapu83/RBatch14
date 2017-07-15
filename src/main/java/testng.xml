@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+  <groups>
+  	<run>
+  		<include name="smoke" />
+  	</run>
+  </groups>
+    <classes>
+      <class name="com.selenium.tests.AlertHandle"/>
+      <class name="com.selenium.tests.SwitchWindow"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
